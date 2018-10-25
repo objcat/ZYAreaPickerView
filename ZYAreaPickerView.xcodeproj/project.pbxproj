@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22561345200705A10021CF90 /* province.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22561344200705A10021CF90 /* province.txt */; };
+		22561353200717A10021CF90 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22561351200717A10021CF90 /* TestViewController.m */; };
+		22561354200717A10021CF90 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22561352200717A10021CF90 /* TestViewController.xib */; };
+		225AE9DC20073F050097E508 /* ZYAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9DA20073F050097E508 /* ZYAreaPickerView.m */; };
+		225AE9DD20073F050097E508 /* ZYAreaPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9DB20073F050097E508 /* ZYAreaPickerView.xib */; };
+		2F03947E2005B84800002560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F03947D2005B84800002560 /* main.m */; };
+		2F0394812005B84800002560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0394802005B84800002560 /* AppDelegate.m */; };
+		2F0394842005B84800002560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0394832005B84800002560 /* ViewController.m */; };
+		2F0394872005B84800002560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0394852005B84800002560 /* Main.storyboard */; };
+		2F0394892005B84800002560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0394882005B84800002560 /* Assets.xcassets */; };
+		2F03948C2005B84800002560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F03948A2005B84800002560 /* LaunchScreen.storyboard */; };
+		2F0394972005B84800002560 /* ZYPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0394962005B84800002560 /* ZYPickerViewTests.m */; };
+		2F0394A22005B84800002560 /* ZYPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0394A12005B84800002560 /* ZYPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0394932005B84800002560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0394712005B84800002560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0394782005B84800002560;
+			remoteInfo = ZYPickerView;
+		};
+		2F03949E2005B84800002560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0394712005B84800002560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0394782005B84800002560;
+			remoteInfo = ZYPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22561344200705A10021CF90 /* province.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = province.txt; sourceTree = "<group>"; };
+		22561350200717A10021CF90 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		22561351200717A10021CF90 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		22561352200717A10021CF90 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		225AE9D920073F050097E508 /* ZYAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAreaPickerView.h; sourceTree = "<group>"; };
+		225AE9DA20073F050097E508 /* ZYAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAreaPickerView.m; sourceTree = "<group>"; };
+		225AE9DB20073F050097E508 /* ZYAreaPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYAreaPickerView.xib; sourceTree = "<group>"; };
+		2F0394792005B84800002560 /* ZYAreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F03947D2005B84800002560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F03947F2005B84800002560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F0394802005B84800002560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F0394822005B84800002560 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F0394832005B84800002560 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F0394862005B84800002560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F0394882005B84800002560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F03948B2005B84800002560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F03948D2005B84800002560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0394922005B84800002560 /* ZYAreaPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYAreaPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0394962005B84800002560 /* ZYPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPickerViewTests.m; sourceTree = "<group>"; };
+		2F0394982005B84800002560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F03949D2005B84800002560 /* ZYAreaPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYAreaPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0394A12005B84800002560 /* ZYPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPickerViewUITests.m; sourceTree = "<group>"; };
+		2F0394A32005B84800002560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0394762005B84800002560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03948F2005B84800002560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03949A2005B84800002560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2256135520072A000021CF90 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22561350200717A10021CF90 /* TestViewController.h */,
+				22561351200717A10021CF90 /* TestViewController.m */,
+				22561352200717A10021CF90 /* TestViewController.xib */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
+		2F0394702005B84800002560 = {
+			isa = PBXGroup;
+			children = (
+				2F03947B2005B84800002560 /* ZYPickerView */,
+				2F0394952005B84800002560 /* ZYPickerViewTests */,
+				2F0394A02005B84800002560 /* ZYPickerViewUITests */,
+				2F03947A2005B84800002560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F03947A2005B84800002560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0394792005B84800002560 /* ZYAreaPickerView.app */,
+				2F0394922005B84800002560 /* ZYAreaPickerViewTests.xctest */,
+				2F03949D2005B84800002560 /* ZYAreaPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F03947B2005B84800002560 /* ZYPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2F0394B42005B9FA00002560 /* ZYAreaPickerView */,
+				2256135520072A000021CF90 /* TestViewController */,
+				2F03947C2005B84800002560 /* Supporting Files */,
+			);
+			path = ZYPickerView;
+			sourceTree = "<group>";
+		};
+		2F03947C2005B84800002560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F03947F2005B84800002560 /* AppDelegate.h */,
+				2F0394802005B84800002560 /* AppDelegate.m */,
+				2F0394822005B84800002560 /* ViewController.h */,
+				2F0394832005B84800002560 /* ViewController.m */,
+				2F0394852005B84800002560 /* Main.storyboard */,
+				2F0394882005B84800002560 /* Assets.xcassets */,
+				2F03948A2005B84800002560 /* LaunchScreen.storyboard */,
+				2F03948D2005B84800002560 /* Info.plist */,
+				2F03947D2005B84800002560 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F0394952005B84800002560 /* ZYPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0394962005B84800002560 /* ZYPickerViewTests.m */,
+				2F0394982005B84800002560 /* Info.plist */,
+			);
+			path = ZYPickerViewTests;
+			sourceTree = "<group>";
+		};
+		2F0394A02005B84800002560 /* ZYPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0394A12005B84800002560 /* ZYPickerViewUITests.m */,
+				2F0394A32005B84800002560 /* Info.plist */,
+			);
+			path = ZYPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		2F0394B42005B9FA00002560 /* ZYAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				225AE9D920073F050097E508 /* ZYAreaPickerView.h */,
+				225AE9DA20073F050097E508 /* ZYAreaPickerView.m */,
+				225AE9DB20073F050097E508 /* ZYAreaPickerView.xib */,
+				22561344200705A10021CF90 /* province.txt */,
+			);
+			path = ZYAreaPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F0394782005B84800002560 /* ZYAreaPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0394A62005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerView" */;
+			buildPhases = (
+				2F0394752005B84800002560 /* Sources */,
+				2F0394762005B84800002560 /* Frameworks */,
+				2F0394772005B84800002560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAreaPickerView;
+			productName = ZYPickerView;
+			productReference = 2F0394792005B84800002560 /* ZYAreaPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F0394912005B84800002560 /* ZYAreaPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0394A92005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerViewTests" */;
+			buildPhases = (
+				2F03948E2005B84800002560 /* Sources */,
+				2F03948F2005B84800002560 /* Frameworks */,
+				2F0394902005B84800002560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0394942005B84800002560 /* PBXTargetDependency */,
+			);
+			name = ZYAreaPickerViewTests;
+			productName = ZYPickerViewTests;
+			productReference = 2F0394922005B84800002560 /* ZYAreaPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F03949C2005B84800002560 /* ZYAreaPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0394AC2005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerViewUITests" */;
+			buildPhases = (
+				2F0394992005B84800002560 /* Sources */,
+				2F03949A2005B84800002560 /* Frameworks */,
+				2F03949B2005B84800002560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F03949F2005B84800002560 /* PBXTargetDependency */,
+			);
+			name = ZYAreaPickerViewUITests;
+			productName = ZYPickerViewUITests;
+			productReference = 2F03949D2005B84800002560 /* ZYAreaPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0394712005B84800002560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张祎";
+				TargetAttributes = {
+					2F0394782005B84800002560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Manual;
+					};
+					2F0394912005B84800002560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F0394782005B84800002560;
+					};
+					2F03949C2005B84800002560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F0394782005B84800002560;
+					};
+				};
+			};
+			buildConfigurationList = 2F0394742005B84800002560 /* Build configuration list for PBXProject "ZYAreaPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F0394702005B84800002560;
+			productRefGroup = 2F03947A2005B84800002560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0394782005B84800002560 /* ZYAreaPickerView */,
+				2F0394912005B84800002560 /* ZYAreaPickerViewTests */,
+				2F03949C2005B84800002560 /* ZYAreaPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0394772005B84800002560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F03948C2005B84800002560 /* LaunchScreen.storyboard in Resources */,
+				2F0394892005B84800002560 /* Assets.xcassets in Resources */,
+				2F0394872005B84800002560 /* Main.storyboard in Resources */,
+				225AE9DD20073F050097E508 /* ZYAreaPickerView.xib in Resources */,
+				22561354200717A10021CF90 /* TestViewController.xib in Resources */,
+				22561345200705A10021CF90 /* province.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0394902005B84800002560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03949B2005B84800002560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0394752005B84800002560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225AE9DC20073F050097E508 /* ZYAreaPickerView.m in Sources */,
+				22561353200717A10021CF90 /* TestViewController.m in Sources */,
+				2F0394842005B84800002560 /* ViewController.m in Sources */,
+				2F0394812005B84800002560 /* AppDelegate.m in Sources */,
+				2F03947E2005B84800002560 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03948E2005B84800002560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0394972005B84800002560 /* ZYPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0394992005B84800002560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0394A22005B84800002560 /* ZYPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0394942005B84800002560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0394782005B84800002560 /* ZYAreaPickerView */;
+			targetProxy = 2F0394932005B84800002560 /* PBXContainerItemProxy */;
+		};
+		2F03949F2005B84800002560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0394782005B84800002560 /* ZYAreaPickerView */;
+			targetProxy = 2F03949E2005B84800002560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F0394852005B84800002560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F0394862005B84800002560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F03948A2005B84800002560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F03948B2005B84800002560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F0394A42005B84800002560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F0394A52005B84800002560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F0394A72005B84800002560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZYPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F0394A82005B84800002560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZYPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2F0394AA2005B84800002560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAreaPickerView.app/ZYAreaPickerView";
+			};
+			name = Debug;
+		};
+		2F0394AB2005B84800002560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAreaPickerView.app/ZYAreaPickerView";
+			};
+			name = Release;
+		};
+		2F0394AD2005B84800002560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPickerView;
+			};
+			name = Debug;
+		};
+		2F0394AE2005B84800002560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ZYPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0394742005B84800002560 /* Build configuration list for PBXProject "ZYAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0394A42005B84800002560 /* Debug */,
+				2F0394A52005B84800002560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0394A62005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0394A72005B84800002560 /* Debug */,
+				2F0394A82005B84800002560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0394A92005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0394AA2005B84800002560 /* Debug */,
+				2F0394AB2005B84800002560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0394AC2005B84800002560 /* Build configuration list for PBXNativeTarget "ZYAreaPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0394AD2005B84800002560 /* Debug */,
+				2F0394AE2005B84800002560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F0394712005B84800002560 /* Project object */;
+}
