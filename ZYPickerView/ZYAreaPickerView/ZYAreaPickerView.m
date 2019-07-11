@@ -114,7 +114,7 @@
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view {
     
     UILabel *label = [[UILabel alloc] init];
-    
+    label.backgroundColor = [UIColor redColor];
     NSString *title;
     
     switch (component) {
